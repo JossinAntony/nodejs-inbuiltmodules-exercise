@@ -10,4 +10,6 @@ const myPath = require('path');
 console.log(myPath.basename('S:\Flutter\workspace\nodepgms\modules-inbuilt-exercise\index.js'));
 console.log(myPath.dirname('S:\Flutter\workspace\nodepgms\modules-inbuilt-exercise\index.js'));
 //-------------------
-//  	
+//builtin modules
+const myBuiltin = require('builtin-modules');
+console.log(myBuiltin);
